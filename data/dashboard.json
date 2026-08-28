@@ -1,0 +1,967 @@
+{
+  "generatedAt": "2026-08-28T14:35:29.494Z",
+  "meta": {
+    "snapshotAt": "2026-08-28T21:00:00+08:00",
+    "snapshotNote": "数据快照采集于 2026-08-28（北京时间）。应用会定时尝试实时刷新；失败时显示本快照并标注时间。"
+  },
+  "events": [
+    {
+      "id": "avgo-q3",
+      "date": "2026-09-02T17:00:00-04:00",
+      "title": "博通 (AVGO) FY26 Q3 财报",
+      "category": "chip",
+      "severity": "critical",
+      "confirmed": true,
+      "source": "Broadcom 官方公告, 2026-08-03",
+      "detail": "盘后发布（美东 17:00 电话会）。焦点：AI 半导体收入、ASIC 大客户（谷歌/Anthropic/OpenAI）订单与 2027 年 $100B+ AI 收入指引。佩洛西组合中 AVGO 占 11%。"
+    },
+    {
+      "id": "nfp-aug",
+      "date": "2026-09-04T08:30:00-04:00",
+      "title": "美国 8 月非农就业报告",
+      "category": "macro",
+      "severity": "critical",
+      "confirmed": true,
+      "source": "BLS 发布日程",
+      "detail": "7 月非农为 -23K（远低于预期 +83K），失业率 4.1%。若再度走弱，9 月加息概率将进一步压缩，利多黄金。"
+    },
+    {
+      "id": "apple-sep",
+      "date": "2026-09-09T10:00:00-07:00",
+      "title": "苹果秋季发布会 \"Surprise and Shine\"",
+      "category": "chip",
+      "severity": "high",
+      "confirmed": true,
+      "source": "Apple / USA Today, 2026-08-26",
+      "detail": "预计发布 iPhone 18 Pro/Max、首款折叠 iPhone Ultra（A20 Pro 芯片，性能 +18%/能效 +30%）。新 CEO John Ternus 首场发布会。供应链：台积电、美光、博通。"
+    },
+    {
+      "id": "ppi-aug",
+      "date": "2026-09-10T08:30:00-04:00",
+      "title": "美国 8 月 PPI",
+      "category": "macro",
+      "severity": "medium",
+      "confirmed": true,
+      "source": "BLS 发布日程",
+      "detail": "7 月核心 PPI 低于预期，是 8 月加息预期降温的关键数据之一。"
+    },
+    {
+      "id": "cpi-aug",
+      "date": "2026-09-11T08:30:00-04:00",
+      "title": "美国 8 月 CPI",
+      "category": "macro",
+      "severity": "critical",
+      "confirmed": true,
+      "source": "BLS 发布日程",
+      "detail": "7 月 CPI 同比 3.4%（连续第二个月放缓）。FOMC 前最后一份 CPI，直接决定 9/16 会议预期。"
+    },
+    {
+      "id": "fomc-sep",
+      "date": "2026-09-16T14:00:00-04:00",
+      "title": "FOMC 利率决议 + 点阵图 (SEP)",
+      "category": "macro",
+      "severity": "critical",
+      "confirmed": true,
+      "source": "美联储官方日程",
+      "detail": "会议 9/15–16，决议美东 9/16 14:00，含最新点阵图与主席 Warsh 记者会。当前利率 3.50%–3.75%，市场定价 9 月加息概率约 31–35%（CME FedWatch, 8/14）。"
+    },
+    {
+      "id": "mu-fq4",
+      "date": "2026-09-30T16:30:00-04:00",
+      "title": "美光 (MU) FY26 Q4 财报",
+      "category": "chip",
+      "severity": "high",
+      "confirmed": true,
+      "source": "Micron 官方公告, 2026-08-26",
+      "detail": "上季营收 $41.46B（+345.7% YoY），毛利率 84.6%，2026 年 HBM 产能已售罄。预期 EPS $31.39。"
+    },
+    {
+      "id": "nfp-sep",
+      "date": "2026-10-02T08:30:00-04:00",
+      "title": "美国 9 月非农就业报告",
+      "category": "macro",
+      "severity": "medium",
+      "confirmed": true,
+      "source": "BLS 发布日程",
+      "detail": ""
+    },
+    {
+      "id": "cpi-sep",
+      "date": "2026-10-14T08:30:00-04:00",
+      "title": "美国 9 月 CPI",
+      "category": "macro",
+      "severity": "medium",
+      "confirmed": true,
+      "source": "BLS 发布日程",
+      "detail": ""
+    },
+    {
+      "id": "fomc-oct",
+      "date": "2026-10-28T14:00:00-04:00",
+      "title": "FOMC 利率决议",
+      "category": "macro",
+      "severity": "high",
+      "confirmed": true,
+      "source": "美联储官方日程",
+      "detail": "无点阵图。若 9 月按兵不动，10 月可能成为政策调整窗口。"
+    },
+    {
+      "id": "nvda-q3",
+      "date": "2026-11-18T16:20:00-05:00",
+      "title": "英伟达 (NVDA) FY27 Q3 财报（预计）",
+      "category": "chip",
+      "severity": "high",
+      "confirmed": false,
+      "source": "历史节奏推算（近几季均在 11 月中下旬），待公司确认",
+      "detail": "上一季（8/26 发布）EPS 预期 $2.08。关注对华 H200 出货（逐案审查 + 25% 关税）与 Vera Rubin 平台进展。"
+    },
+    {
+      "id": "fomc-dec",
+      "date": "2026-12-09T14:00:00-05:00",
+      "title": "FOMC 利率决议 + 点阵图 (SEP)",
+      "category": "macro",
+      "severity": "high",
+      "confirmed": true,
+      "source": "美联储官方日程",
+      "detail": "年度收官会议，发布 2027 年利率路径预测。"
+    }
+  ],
+  "politicians": [
+    {
+      "id": "pelosi",
+      "name": "南希·佩洛西",
+      "enName": "Nancy Pelosi",
+      "role": "众议院议员 (D-CA-11) · 前众议长",
+      "party": "dem",
+      "note": "交易由其丈夫 Paul Pelosi 执行，按 STOCK Act 以她的名义申报。已宣布 2026 年不竞选连任，2027 年 1 月起将不再产生披露。",
+      "stats": {
+        "return1y": {
+          "value": "+20.1%",
+          "label": "2025 年度收益（同期标普500 +16.6%）",
+          "source": "Unusual Whales 年度报告"
+        },
+        "volume2026": {
+          "value": "$8.88M",
+          "label": "2026 年已申报交易额",
+          "source": "Quiver Quantitative / Benzinga, 2026-06"
+        },
+        "portfolio": {
+          "value": "≈$44.6M",
+          "label": "15 个持仓（估算），近12月 +22.6%",
+          "source": "Yahoo Finance 引用的追踪数据, 2026-08-26"
+        },
+        "rank": {
+          "value": "#28",
+          "label": "2025 年国会交易员收益排名",
+          "source": "Unusual Whales"
+        }
+      },
+      "holdings": [
+        {
+          "ticker": "MSFT",
+          "name": "微软",
+          "shares": 25000,
+          "price": 503.62,
+          "asOf": "2026-08-27"
+        },
+        {
+          "ticker": "NVDA",
+          "name": "英伟达",
+          "shares": 45000,
+          "price": 226.69,
+          "asOf": "2026-08-27"
+        },
+        {
+          "ticker": "AVGO",
+          "name": "博通",
+          "shares": 20000,
+          "price": 372.5,
+          "asOf": "2026-08-27"
+        },
+        {
+          "ticker": "GOOG",
+          "name": "谷歌",
+          "shares": 20000,
+          "price": 337.82,
+          "asOf": "2026-08-27"
+        },
+        {
+          "ticker": "PANW",
+          "name": "派拓网络",
+          "shares": 14000,
+          "price": 382,
+          "asOf": "2026-08-27"
+        },
+        {
+          "ticker": "BE",
+          "name": "Bloom Energy",
+          "shares": 15000,
+          "price": 217.04,
+          "asOf": "2026-08-27"
+        },
+        {
+          "ticker": "AB",
+          "name": "联博控股",
+          "shares": 85000,
+          "price": 36.6,
+          "asOf": "2026-08-27",
+          "approx": true
+        },
+        {
+          "ticker": "CRM",
+          "name": "Salesforce",
+          "shares": 8916,
+          "price": 252.28,
+          "asOf": "2026-08-27"
+        },
+        {
+          "ticker": "DIS",
+          "name": "迪士尼",
+          "shares": 10000,
+          "price": 106.92,
+          "asOf": "2026-08-27"
+        },
+        {
+          "ticker": "INTC",
+          "name": "英特尔",
+          "shares": 10000,
+          "price": 91.34,
+          "asOf": "2026-08-27"
+        },
+        {
+          "ticker": "VST",
+          "name": "Vistra",
+          "shares": 5000,
+          "price": 140,
+          "asOf": "2026-08-27"
+        },
+        {
+          "ticker": "DBX",
+          "name": "Dropbox",
+          "shares": 10000,
+          "price": 36.06,
+          "asOf": "2026-08-27"
+        },
+        {
+          "ticker": "TEM",
+          "name": "Tempus AI",
+          "shares": 5000,
+          "price": 70.55,
+          "asOf": "2026-08-27"
+        }
+      ],
+      "holdingsNote": "持仓为第三方追踪站基于披露区间中值 × 市价的估算（另有 8 个未平仓期权头寸），非精确账本。价格 asOf 2026-08-27。",
+      "allocation": [
+        {
+          "label": "NVDA",
+          "pct": 15
+        },
+        {
+          "label": "GOOGL",
+          "pct": 12
+        },
+        {
+          "label": "AVGO",
+          "pct": 11
+        },
+        {
+          "label": "BE",
+          "pct": 11
+        },
+        {
+          "label": "INTC",
+          "pct": 10
+        },
+        {
+          "label": "TEM",
+          "pct": 6
+        },
+        {
+          "label": "CRWD",
+          "pct": 6
+        },
+        {
+          "label": "VST",
+          "pct": 6
+        },
+        {
+          "label": "AMZN",
+          "pct": 5
+        },
+        {
+          "label": "其他",
+          "pct": 18
+        }
+      ],
+      "trades": [
+        {
+          "date": "2026-07-28",
+          "filed": "2026-08-21",
+          "ticker": "BE",
+          "asset": "Bloom Energy",
+          "type": "buy",
+          "kind": "股票",
+          "range": "$500K–$1M"
+        },
+        {
+          "date": "2026-07-28",
+          "filed": "2026-08-21",
+          "ticker": "BE",
+          "asset": "Bloom Energy",
+          "type": "buy",
+          "kind": "期权(看涨)",
+          "range": "$500K–$1M"
+        },
+        {
+          "date": "2026-07-27",
+          "filed": "2026-08-21",
+          "ticker": "—",
+          "asset": "REOF XXV, LLC（私募）",
+          "type": "buy",
+          "kind": "私募股权",
+          "range": "$500K–$1M"
+        },
+        {
+          "date": "2026-07-24",
+          "filed": "2026-08-21",
+          "ticker": "INTC",
+          "asset": "英特尔",
+          "type": "buy",
+          "kind": "股票",
+          "range": "$500K–$1M"
+        },
+        {
+          "date": "2026-07-24",
+          "filed": "2026-08-21",
+          "ticker": "INTC",
+          "asset": "英特尔",
+          "type": "buy",
+          "kind": "期权(看涨)",
+          "range": "$250K–$500K"
+        },
+        {
+          "date": "2026-07-24",
+          "filed": "2026-08-21",
+          "ticker": "BE",
+          "asset": "Bloom Energy",
+          "type": "buy",
+          "kind": "股票",
+          "range": "$1M–$5M"
+        },
+        {
+          "date": "2026-07-24",
+          "filed": "2026-08-21",
+          "ticker": "BE",
+          "asset": "Bloom Energy",
+          "type": "buy",
+          "kind": "期权(看涨)",
+          "range": "$1M–$5M"
+        },
+        {
+          "date": "2026-05-29",
+          "filed": "2026-06-23",
+          "ticker": "INTC",
+          "asset": "英特尔 200 张看涨期权 行权价$50 到期2027-03-19",
+          "type": "buy",
+          "kind": "期权(看涨)",
+          "range": "$1M–$5M"
+        },
+        {
+          "date": "2026-05-29",
+          "filed": "2026-06-23",
+          "ticker": "UBER",
+          "asset": "Uber 200 张看涨期权 行权价$50 到期2027-03-19",
+          "type": "buy",
+          "kind": "期权(看涨)",
+          "range": "$500K–$1M"
+        },
+        {
+          "date": "2026-01-16",
+          "filed": "2026-01-23",
+          "ticker": "AMZN",
+          "asset": "亚马逊",
+          "type": "buy",
+          "kind": "期权(看涨)",
+          "range": "$500K–$1M"
+        },
+        {
+          "date": "2026-01-16",
+          "filed": "2026-01-23",
+          "ticker": "GOOGL",
+          "asset": "谷歌",
+          "type": "buy",
+          "kind": "期权(看涨)",
+          "range": "$500K–$1M"
+        },
+        {
+          "date": "2026-01-16",
+          "filed": "2026-01-23",
+          "ticker": "NVDA",
+          "asset": "英伟达",
+          "type": "buy",
+          "kind": "期权(看涨)",
+          "range": "$250K–$500K"
+        },
+        {
+          "date": "2025-12-30",
+          "filed": "2026-01-23",
+          "ticker": "AAPL",
+          "asset": "苹果",
+          "type": "sell",
+          "kind": "股票",
+          "range": "$5M–$25M"
+        },
+        {
+          "date": "2025-12-30",
+          "filed": "2026-01-23",
+          "ticker": "GOOGL",
+          "asset": "谷歌",
+          "type": "sell",
+          "kind": "股票",
+          "range": "$1M–$5M"
+        }
+      ],
+      "insight": "2026 年几乎全为买入，重仓 AI 算力与芯片（NVDA/AVGO/INTC/BE）。7 月末大手笔加仓 Bloom Energy 与英特尔——INTC 2026 年内一度 +237.9%。"
+    },
+    {
+      "id": "trump",
+      "name": "唐纳德·特朗普",
+      "enName": "Donald J. Trump",
+      "role": "美国总统",
+      "party": "rep",
+      "note": "以 White House Office 身份申报。其最大资产为 Trump Media (DJT) 信托持股，不计入 PTR 交易流。",
+      "stats": {
+        "latest": {
+          "value": "2026-07-01",
+          "label": "最近一次申报日期（披露 5 月下旬交易）",
+          "source": "Unusual Whales 政要档案, 抓取于 2026-08-28"
+        },
+        "style": {
+          "value": "大调仓",
+          "label": "5 月下旬一次性买入大量市政债/优先股，减持个股",
+          "source": "Unusual Whales"
+        }
+      },
+      "holdings": [],
+      "holdingsNote": "总统申报仅披露交易与资产区间，无公开实时持仓明细；其最大已知头寸为 DJT（Trump Media）信托持股。",
+      "allocation": [],
+      "trades": [
+        {
+          "date": "2026-05-29",
+          "filed": "2026-07-01",
+          "ticker": "债券",
+          "asset": "纽约市市政债 5.5% 2054年到期",
+          "type": "buy",
+          "kind": "市政债",
+          "range": "$1M–$5M"
+        },
+        {
+          "date": "2026-05-29",
+          "filed": "2026-07-01",
+          "ticker": "JPM",
+          "asset": "摩根大通永续优先票据 6.5% / 6.875%",
+          "type": "buy",
+          "kind": "优先股",
+          "range": "$100K–$250K ×2"
+        },
+        {
+          "date": "2026-05-28",
+          "filed": "2026-07-01",
+          "ticker": "债券",
+          "asset": "亚利桑那州 Regents 债券 5% 2046年到期",
+          "type": "buy",
+          "kind": "市政债",
+          "range": "$1M–$5M"
+        },
+        {
+          "date": "2026-05-22",
+          "filed": "2026-07-01",
+          "ticker": "债券",
+          "asset": "俄亥俄 Cuyahoga 县债券 5.25% 2056年到期",
+          "type": "buy",
+          "kind": "市政债",
+          "range": "$1M–$5M"
+        },
+        {
+          "date": "2026-05-22",
+          "filed": "2026-07-01",
+          "ticker": "VST",
+          "asset": "Vistra（电力/AI 数据中心受益）",
+          "type": "buy",
+          "kind": "股票",
+          "range": "$50K–$100K"
+        },
+        {
+          "date": "2026-05-22",
+          "filed": "2026-07-01",
+          "ticker": "HOOD",
+          "asset": "Robinhood",
+          "type": "buy",
+          "kind": "股票",
+          "range": "$15K–$50K"
+        },
+        {
+          "date": "2026-05-22",
+          "filed": "2026-07-01",
+          "ticker": "TEM",
+          "asset": "Tempus AI",
+          "type": "buy",
+          "kind": "股票",
+          "range": "$15K–$50K"
+        },
+        {
+          "date": "2026-05-22",
+          "filed": "2026-07-01",
+          "ticker": "NFLX",
+          "asset": "奈飞",
+          "type": "sell",
+          "kind": "股票",
+          "range": "$50K–$100K"
+        },
+        {
+          "date": "2026-05-22",
+          "filed": "2026-07-01",
+          "ticker": "CRM",
+          "asset": "Salesforce",
+          "type": "sell",
+          "kind": "股票",
+          "range": "$100K–$250K"
+        },
+        {
+          "date": "2026-05-22",
+          "filed": "2026-07-01",
+          "ticker": "V",
+          "asset": "Visa",
+          "type": "sell",
+          "kind": "股票",
+          "range": "$50K–$100K"
+        },
+        {
+          "date": "2026-05-22",
+          "filed": "2026-07-01",
+          "ticker": "MA",
+          "asset": "万事达",
+          "type": "sell",
+          "kind": "股票",
+          "range": "$100K–$250K"
+        },
+        {
+          "date": "2026-05-22",
+          "filed": "2026-07-01",
+          "ticker": "KKR",
+          "asset": "KKR",
+          "type": "sell",
+          "kind": "股票",
+          "range": "$50K–$100K"
+        },
+        {
+          "date": "2026-05-26",
+          "filed": "2026-07-01",
+          "ticker": "KRUS",
+          "asset": "Kura Sushi（期权行权卖出）",
+          "type": "sell",
+          "kind": "期权相关",
+          "range": "$500K–$1M"
+        }
+      ],
+      "insight": "5 月下旬明显\"降个股、加债券\"：买入多笔 5%+ 长期市政债与 JPM 优先股，同时减持科技股。与同期关税/利率政策预期变化的时间点高度重合，值得跟踪。"
+    },
+    {
+      "id": "blumenthal",
+      "name": "理查德·布卢门撒尔",
+      "enName": "Richard Blumenthal",
+      "role": "参议员 (D-CT)",
+      "party": "dem",
+      "stats": {
+        "volume2025": {
+          "value": "$79.8M",
+          "label": "2025 交易量 · 406 笔 · 全国会 #1",
+          "source": "Common Cause, 2025-12-12"
+        }
+      },
+      "holdings": [],
+      "allocation": [],
+      "trades": [],
+      "note": "数据待接入实时源后展开明细。"
+    },
+    {
+      "id": "mccaul",
+      "name": "迈克尔·麦考尔",
+      "enName": "Michael McCaul",
+      "role": "众议员 (R-TX)",
+      "party": "rep",
+      "stats": {
+        "volume2025": {
+          "value": "$75.5M",
+          "label": "2025 交易量 · 1,029 笔 · 全国会 #2",
+          "source": "Common Cause, 2025-12-12"
+        }
+      },
+      "holdings": [],
+      "allocation": [],
+      "trades": [],
+      "note": "数据待接入实时源后展开明细。"
+    },
+    {
+      "id": "khanna",
+      "name": "罗·康纳",
+      "enName": "Ro Khanna",
+      "role": "众议员 (D-CA)",
+      "party": "dem",
+      "stats": {
+        "volume2025": {
+          "value": "$55.7M",
+          "label": "2025 交易量 · 3,923 笔 · 全国会 #3（最高频）",
+          "source": "Common Cause, 2025-12-12"
+        }
+      },
+      "holdings": [],
+      "allocation": [],
+      "trades": [],
+      "note": "数据待接入实时源后展开明细。"
+    },
+    {
+      "id": "gottheimer",
+      "name": "乔什·戈特海默",
+      "enName": "Josh Gottheimer",
+      "role": "众议员 (D-NJ)",
+      "party": "dem",
+      "stats": {
+        "volume2025": {
+          "value": "$44.3M",
+          "label": "2025 交易量 · 420 笔 · 全国会 #4",
+          "source": "Common Cause, 2025-12-12"
+        }
+      },
+      "holdings": [],
+      "allocation": [],
+      "trades": [],
+      "note": "数据待接入实时源后展开明细。"
+    },
+    {
+      "id": "shreve",
+      "name": "杰斐逊·施里夫",
+      "enName": "Jefferson Shreve",
+      "role": "众议员 (R-IN)",
+      "party": "rep",
+      "stats": {
+        "volume2025": {
+          "value": "$30.9M",
+          "label": "2025 交易量 · 617 笔 · 全国会 #5",
+          "source": "Common Cause, 2025-12-12"
+        }
+      },
+      "holdings": [],
+      "allocation": [],
+      "trades": [],
+      "note": "数据待接入实时源后展开明细。"
+    },
+    {
+      "id": "issa",
+      "name": "达雷尔·伊萨",
+      "enName": "Darrell Issa",
+      "role": "众议员 (R-CA)",
+      "party": "rep",
+      "stats": {
+        "volume2025": {
+          "value": "$30.0M",
+          "label": "2025 交易量 · 单笔 $30M · 全国会 #6",
+          "source": "Common Cause, 2025-12-12"
+        }
+      },
+      "holdings": [],
+      "allocation": [],
+      "trades": [],
+      "note": "数据待接入实时源后展开明细。"
+    },
+    {
+      "id": "mccormick",
+      "name": "戴夫·麦考密克",
+      "enName": "Dave McCormick",
+      "role": "参议员 (R-PA)",
+      "party": "rep",
+      "stats": {
+        "volume2025": {
+          "value": "$28.6M",
+          "label": "2025 交易量 · 202 笔 · 全国会 #7",
+          "source": "Common Cause, 2025-12-12"
+        }
+      },
+      "holdings": [],
+      "allocation": [],
+      "trades": [],
+      "note": "数据待接入实时源后展开明细。"
+    },
+    {
+      "id": "fields",
+      "name": "克莱奥·菲尔兹",
+      "enName": "Cleo Fields",
+      "role": "众议员 (D-LA)",
+      "party": "dem",
+      "stats": {
+        "volume2025": {
+          "value": "$20.5M",
+          "label": "2025 交易量 · 185 笔 · 全国会 #9",
+          "source": "Common Cause, 2025-12-12"
+        }
+      },
+      "holdings": [],
+      "allocation": [],
+      "trades": [],
+      "note": "数据待接入实时源后展开明细。"
+    },
+    {
+      "id": "cisneros",
+      "name": "吉尔·西斯内罗斯",
+      "enName": "Gil Cisneros",
+      "role": "众议员 (D-CA)",
+      "party": "dem",
+      "stats": {
+        "volume2025": {
+          "value": "$17.4M",
+          "label": "2025 交易量 · 527 笔 · 全国会 #10",
+          "source": "Common Cause, 2025-12-12"
+        }
+      },
+      "holdings": [],
+      "allocation": [],
+      "trades": [],
+      "note": "数据待接入实时源后展开明细。"
+    },
+    {
+      "id": "mullin",
+      "name": "马克韦恩·马林",
+      "enName": "Markwayne Mullin",
+      "role": "参议员 (R-OK)",
+      "party": "rep",
+      "stats": {},
+      "holdings": [],
+      "allocation": [],
+      "trades": [],
+      "note": "高频活跃交易员，以期权与能源股操作著称；明细待实时源接入。"
+    },
+    {
+      "id": "greene",
+      "name": "玛乔丽·泰勒·格林",
+      "enName": "Marjorie Taylor Greene",
+      "role": "众议员 (R-GA)",
+      "party": "rep",
+      "stats": {},
+      "holdings": [],
+      "allocation": [],
+      "trades": [],
+      "note": "活跃交易员，偏好科技与国债 ETF；明细待实时源接入。"
+    },
+    {
+      "id": "tuberville",
+      "name": "汤米·图伯维尔",
+      "enName": "Tommy Tuberville",
+      "role": "参议员 (R-AL)",
+      "party": "rep",
+      "stats": {},
+      "holdings": [],
+      "allocation": [],
+      "trades": [],
+      "note": "长期高频期权交易员；明细待实时源接入。"
+    },
+    {
+      "id": "crenshaw",
+      "name": "丹·克伦肖",
+      "enName": "Dan Crenshaw",
+      "role": "众议员 (R-TX)",
+      "party": "rep",
+      "stats": {},
+      "holdings": [],
+      "allocation": [],
+      "trades": [],
+      "note": "活跃交易员；明细待实时源接入。"
+    }
+  ],
+  "news": [
+    {
+      "id": "n1",
+      "date": "2026-08-28",
+      "title": "美联储主席 Warsh 今日在杰克逊霍尔发表关键演讲",
+      "tags": [
+        "宏观",
+        "黄金"
+      ],
+      "risk": "high",
+      "source": "Yahoo Finance, 2026-08-28",
+      "summary": "市场屏息等待新任主席 Warsh 对 9 月利率路径的表态。黄金盘前 $4,650 附近持稳。若释放鹰派信号，金价承压；若暗示按兵不动，金价有望延续涨势。"
+    },
+    {
+      "id": "n2",
+      "date": "2026-08-26",
+      "title": "苹果官宣 9 月 9 日发布会，新 CEO Ternus 9 月 1 日接任",
+      "tags": [
+        "芯片",
+        "供应链"
+      ],
+      "risk": "medium",
+      "source": "USA Today / MacRumors, 2026-08-26",
+      "summary": "预计发布 iPhone 18 Pro 系列与首款折叠 iPhone Ultra。"
+    },
+    {
+      "id": "n3",
+      "date": "2026-08-26",
+      "title": "英伟达 FY27 Q2 财报盘后发布（EPS 预期 $2.08）",
+      "tags": [
+        "AI算力"
+      ],
+      "risk": "medium",
+      "source": "Earnings Today, 2026-08-26",
+      "summary": "市场聚焦数据中心收入、对华 H200 出货进展与 Vera Rubin 平台。"
+    },
+    {
+      "id": "n4",
+      "date": "2026-08-18",
+      "title": "金价一个月上涨约 9%：9 月加息概率从 ~55% 骤降至 ~35%",
+      "tags": [
+        "黄金",
+        "宏观"
+      ],
+      "risk": "high",
+      "source": "Crux Investor, 2026-08-18",
+      "summary": "7 月就业报告（-23K）、CPI（3.4% 连续放缓）、PPI（持平）三连击压缩加息预期；Q2 全球央行净购金 288.9 吨创同期纪录（+62% YoY）。高盛年末目标 $4,900，美银基准情形 $5,000–$6,000。"
+    },
+    {
+      "id": "n5",
+      "date": "2026-08-21",
+      "title": "佩洛西最新披露：7 月末大笔买入 Bloom Energy（最高 $1,000 万）与英特尔",
+      "tags": [
+        "政要"
+      ],
+      "risk": "medium",
+      "source": "众议院披露 / PurePowerPicks 追踪, 2026-08-27",
+      "summary": "7/24–7/28 连续买入 BE 股票+看涨期权（合计区间最高 $1,000 万）及 INTC 股票+期权，延续其重仓 AI 能源与芯片的路线。"
+    },
+    {
+      "id": "n6",
+      "date": "2026-07-01",
+      "title": "特朗普申报 5 月下旬组合大调仓：增持长期市政债，减持科技股",
+      "tags": [
+        "政要"
+      ],
+      "risk": "medium",
+      "source": "Unusual Whales 政要档案, 抓取于 2026-08-28",
+      "summary": "买入多笔 5%+ 票面利率长期市政债（纽约市、亚利桑那、俄亥俄）与 JPM 优先股；卖出 NFLX、V、MA、CRM、KKR 等个股。"
+    },
+    {
+      "id": "n7",
+      "date": "2026-05-20",
+      "title": "黄仁勋：英伟达\"基本放弃\"中国 AI 芯片市场，让予华为",
+      "tags": [
+        "芯片",
+        "出口管制"
+      ],
+      "risk": "high",
+      "source": "CNBC 采访（经 NeuralWired 整理）, 2026-05",
+      "summary": "华为 AI 芯片年化收入据报道接近 $120 亿。政策反复正让英伟达中国客户转向国产替代。"
+    },
+    {
+      "id": "n8",
+      "date": "2026-03-15",
+      "title": "Super Micro 联合创始人因涉嫌违反 AI 芯片出口管制被捕",
+      "tags": [
+        "芯片",
+        "出口管制"
+      ],
+      "risk": "high",
+      "source": "NeuralWired 出口管制时间线, 2026-06-05",
+      "summary": "案件涉及约 $25 亿美元的疑似违规芯片转运。出口执法明显趋严。"
+    },
+    {
+      "id": "n9",
+      "date": "2026-01-13",
+      "title": "美商务部 H200 对华出口新政：逐案审查 + 25% 关税 + 50% 数量上限",
+      "tags": [
+        "芯片",
+        "出口管制"
+      ],
+      "risk": "high",
+      "source": "BIS 规则 / CFR 分析, 2026-01",
+      "summary": "特朗普政府将 H200 从\"推定拒绝\"改为逐案审查，同时加征 25% Section 232 关税并要求在美第三方测试。分析师评价政策\"战略上自相矛盾\"。"
+    }
+  ],
+  "markets": {
+    "asOf": "2026-08-28 07:43 ET（盘前）",
+    "gold": {
+      "price": 4650.9,
+      "unit": "美元/盎司（12月期货）",
+      "week": "+2.1%",
+      "month": "+15.7%",
+      "year": "+36.6%",
+      "source": "Yahoo Finance, 2026-08-28"
+    },
+    "fedRate": {
+      "value": "3.50%–3.75%",
+      "note": "2026 年以来五次会议均按兵不动",
+      "source": "美联储"
+    },
+    "hikeOdds": {
+      "value": "≈31–35%",
+      "note": "9 月加息 25bp 概率（CME FedWatch，8/14；8 月初曾达 ~55%）",
+      "source": "CME FedWatch 转引"
+    },
+    "cpi": {
+      "value": "3.4% YoY",
+      "note": "7 月 CPI，连续第二个月放缓",
+      "source": "BLS"
+    },
+    "nfp": {
+      "value": "-23K",
+      "note": "7 月非农（预期 +83K），失业率 4.1%",
+      "source": "BLS, 2026-08-07"
+    },
+    "goldDrivers": [
+      {
+        "title": "央行购金",
+        "desc": "Q2 2026 全球央行净购金 288.9 吨，创 Q2 历史纪录（+62% YoY）；89% 受访央行计划继续增持",
+        "source": "世界黄金协会"
+      },
+      {
+        "title": "利率路径",
+        "desc": "9/16 FOMC 是下一个决定性节点；高盛鹰派情景 $4,400 / 美银基准 $5,000–$6,000",
+        "source": "Crux Investor, 2026-08-18"
+      },
+      {
+        "title": "财政利息压力",
+        "desc": "FY2026 前 7 个月净利息支出 $6,280 亿，已超过 Medicare；CBO 预计全年 $1.039 万亿",
+        "source": "CBO"
+      }
+    ],
+    "tickers": [
+      {
+        "symbol": "NVDA",
+        "price": 226.69,
+        "note": "8/26 财报已发布",
+        "asOf": "2026-08-27"
+      },
+      {
+        "symbol": "MU",
+        "price": 935.39,
+        "note": "市值破 $1 万亿；9/30 财报",
+        "asOf": "2026-08-27"
+      },
+      {
+        "symbol": "AVGO",
+        "price": 372.5,
+        "note": "9/2 盘后财报",
+        "asOf": "2026-08-27"
+      },
+      {
+        "symbol": "INTC",
+        "price": 91.34,
+        "note": "年内一度 +237.9%；佩洛西重仓",
+        "asOf": "2026-08-27"
+      },
+      {
+        "symbol": "BE",
+        "price": 217.04,
+        "note": "佩洛西 7 月末大笔加仓",
+        "asOf": "2026-08-27"
+      }
+    ]
+  }
+}
